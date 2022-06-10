@@ -17,7 +17,7 @@ z-index: 99;
 const Logo = styled.h1`
 padding-top: 20%;
 margin: 0;
-color: #fff;
+color: #b50617;
 font-weight: 700;
 font-size: 55px;
 `
@@ -35,17 +35,30 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.5
 margin-top: 1em;
+max-width: 30%;
+text-align: center;
 `
 
 const DonateButton = styled.button`
-
+outline: none;
+border: none;
+background-color: #25bb1e;
+color: #fff;
+font-size: 16px;
+font-weight: 500;
+border-radius: 3px;
+padding: 8px 14px;
+margin-top: 
 `
 export function TopSection() {
     return(
     <TopSectionContainer>
-        <Logo>土也王求温暖イヒ</Logo>
-        <Slogan>うゎ、土也王求ﾏﾞ/″熱ﾚヽ</Slogan>
-        <Paragraph>┐°ﾗｽ于ッ勹ゃめょ</Paragraph>
+        <Logo>Global Warming</Logo>
+        <Slogan>Save the Earth</Slogan>
+        <Paragraph>
+            hogehogefugafugahogehogefugafugahogehoge
+            fugafugahogehogefugafugahogehogefugafuga
+        </Paragraph>
     </TopSectionContainer>
     )
 }
